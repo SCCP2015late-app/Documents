@@ -6,5 +6,5 @@ Listenerリスト
  - onSetRegistrationItemListener: ユーザ登録情報を設定した時
  - onAddImageListener: メッセージに画像を添付した時
 
-##Backから呼び出すリスナー
+##Front,Back両方から呼び出すリスナー
  - onUpdateMessageListener: グループのメッセージリストが更新された時
