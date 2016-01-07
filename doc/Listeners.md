@@ -8,3 +8,9 @@ Listenerリスト
 
 ##Front,Back両方から呼び出すリスナー
  - onUpdateMessageListener: グループのメッセージリストが更新された時
+
+###コールバックの追加の仕方
+例（onClickMessageListener）
+onClickMessageListener.addCallback(function(message){ console.log("message: " + message.body); });
+
+
